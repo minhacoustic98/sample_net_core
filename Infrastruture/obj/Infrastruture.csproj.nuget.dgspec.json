@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Persistence\\Persistence.csproj": {}
+    "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Infrastruture\\Infrastruture.csproj": {}
   },
   "projects": {
     "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Application\\Application.csproj": {
@@ -203,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Infrastruture\\Infrastruture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Persistence\\Persistence.csproj",
-        "projectName": "Persistence",
-        "projectPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Infrastruture\\Infrastruture.csproj",
+        "projectName": "Infrastruture",
+        "projectPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Infrastruture\\Infrastruture.csproj",
         "packagesPath": "C:\\Users\\dbminh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Infrastruture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -235,9 +235,6 @@
               },
               "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Common\\Common.csproj": {
                 "projectPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Common\\Common.csproj"
-              },
-              "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\dbminh\\source\\repos\\NorthWind\\Domain\\Domain.csproj"
               }
             }
           }
@@ -252,19 +249,15 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[3.1.30, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.30, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.30, )"
-            },
-            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
-              "target": "Package",
-              "version": "[3.1.30, )"
-            },
-            "Microsoft.Extensions.Configuration.FileExtensions": {
-              "target": "Package",
-              "version": "[3.1.30, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[3.1.30, )"
             }
